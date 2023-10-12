@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=prompt("enter a number")
+        if(a%2==0){
+            alert("even number")
+
+        }
+        else{
+            alert("odd number")
+        }
+        var b=prompt("enter  year")
+        if(b%4==0){
+            alert("leap year")
+        }
+        else{
+            alert("not a leap year")
+        }
+        var c=+prompt("enter a time")
+        if(c>=6 && c<=11){
+            alert("good morning")
+        }
+         else if(c<=12 &&c>=17){
+            alert("good afternoon")
+
+        }
+        else if(c<=18 &&c>=23){
+            alert("good evening")
+        }
+        else{
+            alert("good night")
+
+        }
+         
+
+
+
+        var a=+prompt("enter first number")
+        var b=+prompt("enter second number")
+        var c=+prompt("enter third number")
+        if(a>b && a>c){
+            alert(+a,"a is largest")
+        }
+         else if(b>a && b>c){
+            alert(+b,"b is the largest")
+        }
+        else if(c>a && c>b){
+            alert(+c,"c is the largest")
+
+        }
+        else if(a==b && b==c){
+            alert("all are equal")
+
+        }
+        else{
+            alert("invalid input")
+        }
+
+
+
+        
+        var t=prompt("enter a trafic light")
+        switch(t){
+            case "red":alert("stop and wait")
+            break;
+            case"yellow":alert("slow down")
+            break;
+            case"green":alert("go")
+            break;
+            default:alert("enter correct signal")
+        }
+
+
+
+
+        var s=prompt("enter any month")
+        switch(s){
+            case "january":alert("winter")
+            case "febuary":alert("winter")
+            case "december":alert("winter")
+            break;
+            case "march":alert("summer")
+            case "april":alert("summer")
+            case "may":alert("summer")
+            case "june":alert("summer")
+            case "july":alert("summer")
+            case "aguest":alert("summer")
+            break;
+            case "september":alert("autumn")
+            case "october":alert("autumn")
+            case "november":alert("autumn")
+            break;
+            default:alert("enter correct month")
+         }
+
+
+
+
+        var o=prompt("enter any option")
+        switch(o){
+            case "1":alert(" option 1")
+            break;
+            case "2":alert("option 2")
+            break;
+            case "3":alert("option 3")
+            break;
+            case "4":alert("option 4")
+            break;
+            default:alert("please choose the correct option")
+        }
+
+    </script>
+    
+</body>
+</html>
